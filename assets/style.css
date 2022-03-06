@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Arial, sans-serif;
+}
+
+/*Header styles start*/
+header {
+    background-color: rgb(37, 34, 34);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+header div h1 {
+    color: rgb(37, 34, 34);
+    background-color: aquamarine;
+    padding-left: 50px;
+}
+
+header nav {
+    margin: 5px 30px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 13px 15px;
+    font-size: 1.4vw;
+    color: aquamarine;
+    text-decoration: none;
+}
+/*Header styles end*/
+
+/*Hero styles start*/
+.header-info {
+    border-bottom: 4px solid aquamarine;
+    margin: 4px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.hero {
+    background-image: url(./Images/hero-portfolio.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 145px;
+}
+
+.hero div {
+    color: rgb(37, 34, 34);
+    font-size: x-large;
+    font-weight: bold;
+    background-color: aquamarine;
+    padding: 4px;
+    display: inline-block;
+    float: right; 
+    margin-top:95px;
+    margin-right: 50px;
+}
+/*Hero styles end*/
+
+/*About me section*/
+.section-position {
+    display: flex
+}
+
+/* .section-title {
+    color: rgb(37, 34, 34);
+    font-size: 27px;
+    border-right: 4px solid;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 50px;
+    padding-left: 70px;
+    padding-right: 10px;
+    padding-bottom: 60px;
+    text-align: right;
+}
+
+.section-text {
+    color: rgb(37, 34, 34);
+    margin-top: 30px;
+    padding-right: 45px;
+    padding-bottom: 20px;
+} */
+
+.section-position {
+    margin: 30px 90px 30px 170px;
+}
+
+.section-text {
+    color: rgb(37, 34, 34);
+}
+
+.section-title {
+    color: rgb(37, 34, 34);
+    border-right: 4px solid rgb(37, 34, 34);
+    font-size: 27px;
+    padding-right: 10px;
+    margin-right: 30px;
+    width: 500px;
+}
+/*About me section end*/
+
+/*Work styles start*/
+
+.work-1 {
+    background-image: url(./Images/run-buddy.png);
+    background-size: cover;
+    height: 500px;
+    width: 900px;
+    margin-left: 20px;
+    border: 4px solid aquamarine;
+    padding-left: 10px;
+}
+
+.work-1 div {
+    color: rgb(37, 34, 34) ;
+    background-color: aquamarine;
+    display: inline-block;
+    padding: 10px;   
+    margin-top: 410px;
+}
+
+.work-section {
+    display: flex;
+    margin: 10px;
+}
+
+.work {
+    background-image: url(./Images/work-sampleimg.jpg);
+    height: 200px;
+    width: 440px;
+    margin: 0 10px;
+    border: 4px solid aquamarine;
+}
+
+.work div {
+    color: rgb(37, 34, 34);
+    background-color: aquamarine;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 110px;
+}
+/*Contact*/
+.contact-text {
+    color: rgb(37, 34, 34);
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-text a {
+    color: rgb(37, 34, 34);
+    text-decoration: none;
+}
+
+.section-title {
+    background-color: aqua;
+}
