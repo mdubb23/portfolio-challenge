@@ -158,13 +158,17 @@ header nav ul li a {
     padding: 10px;
     margin-top: 110px;
 }
+
+
 /*Contact*/
 .contact-text {
     color: rgb(37, 34, 34);
     display: flex;
-    justify-content: space-between;
 }
-
+.my-contacts{
+    text-decoration: underline 3px solid black;
+    padding: 30px;
+}
 .contact-text a {
     color: rgb(37, 34, 34);
     text-decoration: none;
