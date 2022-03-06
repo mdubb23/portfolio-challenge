@@ -166,14 +166,13 @@ header nav ul li a {
     display: flex;
 }
 .my-contacts{
-    text-decoration: underline 3px solid black;
+    text-decoration: underline 4px solid black;
     padding: 30px;
+    margin: 50px;
+    font-weight: bold;
 }
 .contact-text a {
     color: rgb(37, 34, 34);
     text-decoration: none;
 }
 
-.section-title {
-    background-color: aqua;
-}
